@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+<title>Contact Us</title>
+<meta name="description" content="Contact Us">
+<meta name="keywords" content="Contact Us">
+<style> 
+.container{
+    border: 5px solid #42b6f5;
+    text-align: center;
+    width: 600px;
+    height:900px;
+  background-color: whitesmoke;
+}
+
+  html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+html {
+  background-image: url("../bluepattern.jpeg");
+}
+  
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+img{
+    width: 50px;
+    height:50px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+/*   background-color: lightblue; */
+  color: white;
+}  
+
+#subject {
+  width: 220px;
+  height: 180px;
+}
+
+.contactinfo a{
+  text-align:center;
+}
+  
+.contactinfo img{
+  width: 35px;
+  height: 35px;
+}
+
+  
+iframe{
+    width: 300px;
+    height: 300px;
+}
+</style>
+</head>
+<body>
+    <div class="topnav">
+        <a href="../AboutUs/aboutus.html"">About us</a>
+        <a class = "active" href="../Menu/menu.html"">Menu</a>
+        <a href="../index.html"">Home</a>
+    </div>
+  
+    <div class="container">
+        <h1> Contact Us </h1>
+      
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <br>
+          <br>
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <br>
+      
+          <br>
+          <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+          <br>
+          <br>
+          <input type="submit" value="Submit"> 
+        </form>
+
+        <br>
+
+        <div class="contactinfo">
+            <div>
+              <img src="phone.png" class="contact" alt="Phone"><a href="#">(347)-234-6788</a>
+            </div>
+            <Br>
+            <div>
+              <img src="email.png" class="contact" alt="Email"><a href="mailto:sample@gmail.com">Arabian Nights</a>
+            </div>
+            <Br>
+            <div>
+              <img src="instagram.png" class="contact" alt="IG"><a href="https:instagram.com">@Arabian Nights</a>
+            </div>
+          </div>
+
+  <br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.234916985962!2d-74.0111809851694!3d40.71284477933173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a18e6a865c9%3A0x4bd0969d07e6bd7b!2s30%20Park%20Pl%2C%20New%20York%2C%20NY%2010007!5e0!3m2!1sen!2sus!4v1657926170884!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      
+    </div>
+
+  
+</body>
+</html>

@@ -5,17 +5,50 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Restuarant HomePage</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="index.css" rel="stylesheet" type="text/css" />
+  <style>
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+/*   background-color: lightblue; */
+  color: white;
+}
+</style>
 </head>
 
 <body>
-  Hello world
-  <script src="script.js"></script>
+  
+  <div class="topnav">
+    <a href="./Contact/contact.html"">Contact</a>
+    <a href="./AboutUs/aboutus.html">About Us</a>
+    <a class = "active" href="./Menu/menu.html">Menu</a>
+  </div>
 
- <!--
-This script places a badge on your repl's full-browser view back to your repl's cover page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green, teal, blue, blurple, magenta, pink!
--->
-<script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+  <div class="svg-wrapper">
+  <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
+    <rect class="shape" height="60" width="320" />
+    <div class="text">ARABIAN NIGHTS</div>
+  </svg>
+  </div>
+
 </body>
 
 </html>
